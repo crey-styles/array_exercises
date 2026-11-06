@@ -24,12 +24,12 @@ int main(int argc, string argv[])
 
     for (int c = 0 , length = strlen(argv[1]) ; c < length ; ++c)
     {
-        if (argv[c] == "b" || argv[c] == "B")
+        if (argv[1][c] == 'b' || argv[1][c] == 'B')
         {
             ++count;
         }
     }
-    printf("%s\n", count);
+    printf("%d\n", count);
     return count;
 
 }
